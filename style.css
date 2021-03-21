@@ -1,32 +1,149 @@
-html, body {margin: 0; padding: 0;}
-
+html, body {margin: 0; padding: 0; min-height: 1080px}
 body {
 	color: #fff;
-	font-family: MS Sans Serif,Tahoma,sans-serif,Helvetica;
+	font-family: Tahoma,sans-serif,Helvetica;
 	background-color: #bfbcf0;
-	font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
+	font-size: 1rem;font-weight: 400;line-height: 1.5;
+	min-height:100vh; margin:0; position:relative;
+}
+
+ul, ol, h2, .btn {
+	border: 2.5px outset white;
+   	border-bottom-color: #424242;
+ 	border-right-color: #424242;
+}
+
+ul li {
+	min-height: 2em;
+	border: 1px solid white;
+   	border-left: 0;
+	border-bottom-color: #424242;
+ 	border-right-color: #424242;
+	padding-left: 1em;
+}
+
+ul.indexed {grid-template-columns:  repeat(auto-fit, minmax(13em,1fr));border:0;}
+ul.indexed li {border:0;margin: 0px }
+a.btn {text-decoration:none;}
+
+h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+h2 {
+	font-weight: 300;
+	padding: 0px 0px 0px 20px;
+	margin: 15px 10% 0 10%;
+	color: white;
+	background: -webkit-linear-gradient(left,#08216b,#a5cef7);
+	content: center;
+  	border-bottom:0px;
+}
+ol.index {
+	list-style-type: upper-latin;
+}
+
+
+ul, ol  {
+	width: auto;
+	max-width: 80%;
+	margin: 0px 10% 15px 10%;
+   	border-top: 0px;
+  	background: silver;
+   	color: #212529;
+}
+ol {
+	padding: 10px 40px 10px 30px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+ul {
+	padding: 0;
+	display: grid;
+	grid-template-columns:  repeat(auto-fill, minmax(15em,1fr));
+	list-style: none;
+}
+
+li {
+	text-align: -webkit-match-parent;
+	display: list-item;
+}
+.navlinks ul {
+	width: 100%;
+	padding: 3px;
+}
+.navlinks li a {
+	transition: all 0.3s ease 0s;
+	text-decoration:none;
+}
+footer {
+	color: white;
+	background: -webkit-linear-gradient(left,#08216b,#a5cef7);
+	content: center;
+	border: 0px outset;
+   	border-top: 4ipx solid buttonface;
+	float: bottom;
+	clear: both;
+    	position: relative;
+}
+footer a {
+	padding-left: 40px ;
+	text-decoration:none;
+	font-size: 15px;
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+.btn{
+	padding: 0 3px 0 3px;
+	margin: 0;
+ 	background: silver;
+    	color: black;
+	user-select: none;
+    	border-radius: 1px;
+	text-align: center;
+	vertical-align: middle;
+    	cursor: pointer;
+	display: inline-block;
+	font-size: 1.2rem;
+    	line-height: 1.5;
+}
+.btn:hover {
+    background: silver;
+	border: 2.5px inset buttonface;
+    border-left-color: #424242;
+    border-top-color: #424242;
+}
+::marker {
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
 }
 
 .topbar {
-	display:flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 2px;
-	margin:auto;
-   	border-bottom: 4px solid #424242;
+	padding: 0px;
+	margin:0;
   	background: silver;
    	color: #212529;
 }
 
+nav{border-bottom: 2.5px outset black}
 .navlinks {
+	grid-template-columns: unset;
+	display: inline-block; !important
+	grid-template-columns: none;
+	padding: 3px;
 	list-style:none;
 	margin: 0;
+	border:0;
 }
 .navlinks li {
 	display: inline-block;
 	padding: 3px;
+	border:0;
 }
 .navlinks li a {
 	transition: all 0.3s ease 0s;
@@ -39,17 +156,13 @@ body {
 
 .search-box {
 	height: 28px;
-	padding-left: 8px;
-	padding-right: 8px;
-	border-width: 3px;
-	border-style: outset;
-   	border-color: buttonface;
-   	border-right-color: #424242;
-   	border-bottom-color: #424242;
+	padding: 0 8px 0 8px;
+	border: buttonface outset 2.5px !important;
+   	border-right-color: #424242 !important;
+   	border-bottom-color: #424242 !important;
    	background: silver;
    	color: black;
 	user-select: none;
-   	border-radius: 1px;
 	text-align: center;
 	vertical-align: middle;
    	cursor: pointer;
@@ -58,125 +171,7 @@ body {
 	margin-right: auto;
 	padding:0 !important;
 }
-
-.search-box:hover > .search-text {
-	width: 240px;
-}
-
-.search-btn {
-	float: right;
-	background: silver;
-	transition: 0.4s;
-	cursor: pointer;
-}
-
-.search-text {
-	border: none;
-	font-size: 1rem;
-   	line-height: 1.5;
-	background: none;
-	outline: none;
-	float: left;
-	padding: 0;
-	color: black;
-	transition: 0.4s;
- 	width: 0px;
-}
-
-#title {
-	text-align: center;
-	font-size: 1.5rem;
-	font-weight: 300;
-}
-
-.flex-parent {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: flex-start;
-	gap: 10px;
-	margin-left: 5%;
-	margin-right: 5%;
-}
-
-.card {
-	width: 90%;
-	margin: 5px;
-	content: center;
-   	border-style: outset;
-   	border: 4px solid white;
-   	border-bottom-color: #424242;
- 	border-right-color: #424242;
-  	background: silver;
-   	color: #212529;
-}
-
-.card-header {
-	padding-right: auto;
-	padding-left: 20px;
-	text-decoration: inherit;
-	color: white;
-	background: -webkit-linear-gradient(left,#08216b,#a5cef7);
-	margin-top: 0
-}
-.card-body {margin-left: 10px; margin-right: 10px;}
-
-#image {
-	width: auto;
-	height: auto;
-	float: center !important;
-}
-
-#ingredients-parent {
-	width: initial;
-	max-width: 90%;
-	flex-shrink: 1;
-}
-
-#preparation-parent {
-	width: 40%;
-	min-width: 600px;
-	max-width: 90%;
-	flex-grow: 1;
-	text-justify: newspaper;
-	font-size: 110%;
-}
-
-.btn {
-	padding-left: 8px;
-    padding-right: 8px;
-	border-width: 3px;
-	border-style: outset;
-    border-color: buttonface;
-    border-right-color: #424242;
-    border-bottom-color: #424242;
-    background: silver;
-    color: black;
-	user-select: none;
-    border-radius: 1px;
-	text-align: center;
-	vertical-align: middle;
-    cursor: pointer;
-	display: inline-block;
-	font-size: 1.2rem;
-    line-height: 1.5;
-}
-
-.btn:hover {
-    background: silver;
-    border-width: 3px;
-    border-style: inset;
-    border-color: buttonface;
-    border-left-color: #424242;
-    border-top-color: #424242;
-}
-
-h1 {
-	margin-block-start: 0.3em;
-    margin-block-end: 0.3em;
-}
-
-ol.index {
-	list-style-type: upper-latin;
-}
+p img {width:40%; height: 100px; padding: 15ºº; margin: 0px 10% 0px 10%; border: buttonface outset 2.5px}
+.search-box:hover > .search-text {width: 240px;}
+.search-btn{float: right; background:silver;transition: 0.4s; cursor: pointer; }
+.search-text{border: none; background: none; outline: none; float: left; padding: 0; color: black; transition: 0.4s; width: 0px; }
