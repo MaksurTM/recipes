@@ -1,4 +1,4 @@
-html, body {margin: 0; padding: 0; min-height: 1080px}
+html, body {margin: 0; padding: 0; height:100%}
 body {
 	color: #fff;
 	font-family: Tahoma,sans-serif,Helvetica;
@@ -7,30 +7,21 @@ body {
 	min-height:100vh; margin:0; position:relative;
 }
 
-ul, ol, h2, .btn {
+/* Window border thing */
+ul, ol, h2, .btn, p{
 	border: 2.5px outset white;
    	border-bottom-color: #424242;
  	border-right-color: #424242;
 }
 
-ul li {
-	min-height: 2em;
-	border: 1px solid white;
-   	border-left: 0;
-	border-bottom-color: #424242;
- 	border-right-color: #424242;
-	padding-left: 1em;
-}
-
-ul.indexed {grid-template-columns:  repeat(auto-fit, minmax(13em,1fr));border:0;}
-ul.indexed li {border:0;margin: 0px }
-a.btn {text-decoration:none;}
-
+/* Title */
 h1 {
 	text-align: center;
 	font-size: 2.5rem;
 	font-weight: 300;
 }
+
+/* Makes subheaders look like that */
 h2 {
 	font-weight: 300;
 	padding: 0px 0px 0px 20px;
@@ -40,12 +31,14 @@ h2 {
 	content: center;
   	border-bottom:0px;
 }
-ol.index {
-	list-style-type: upper-latin;
-}
+/* Index list */
+ol.index {list-style-type:upper-latin;}
+ul.indexed {grid-template-columns:repeat(auto-fit,minmax(13em,1fr));border:0}
+ul.indexed li {border:0; margin:0}
+a.btn {text-decoration:none}
 
-
-ul, ol  {
+/* Unordered lists (Ingredients) and ordered lists (Instructions) */
+ul, ol {
 	width: auto;
 	max-width: 80%;
 	margin: 0px 10% 15px 10%;
@@ -53,23 +46,30 @@ ul, ol  {
   	background: silver;
    	color: #212529;
 }
+ul li {
+	min-height: 2em;
+	border: 1px solid white;
+   	border-left: 0;
+	border-bottom-color: #424242;
+ 	border-right-color: #424242;
+	padding-left: 1em;
+}
 ol {
 	padding: 10px 40px 10px 30px;
 	text-align: justify;
 	text-justify: inter-word;
 }
-
 ul {
 	padding: 0;
 	display: grid;
 	grid-template-columns:  repeat(auto-fill, minmax(15em,1fr));
 	list-style: none;
 }
-
 li {
 	text-align: -webkit-match-parent;
 	display: list-item;
 }
+/* Nav bar */
 .navlinks ul {
 	width: 100%;
 	padding: 3px;
@@ -79,6 +79,7 @@ li {
 	text-decoration:none;
 }
 footer {
+	margin-top: 50%;
 	color: white;
 	background: -webkit-linear-gradient(left,#08216b,#a5cef7);
 	content: center;
@@ -116,20 +117,12 @@ footer a {
     border-left-color: #424242;
     border-top-color: #424242;
 }
-::marker {
-    text-transform: none;
-    text-indent: 0px !important;
-    text-align: start !important;
-    text-align-last: start !important;
-}
-
 .topbar {
 	padding: 0px;
 	margin:0;
   	background: silver;
    	color: #212529;
 }
-
 nav{border-bottom: 2.5px outset black}
 .navlinks {
 	grid-template-columns: unset;
@@ -154,24 +147,27 @@ nav{border-bottom: 2.5px outset black}
 .navlinks li a img{transition: all 0.3s ease 0s}
 .navlinks li a img:hover {transition: all 0.3s ease 0s}
 
-.search-box {
-	height: 28px;
-	padding: 0 8px 0 8px;
-	border: buttonface outset 2.5px !important;
-   	border-right-color: #424242 !important;
-   	border-bottom-color: #424242 !important;
-   	background: silver;
-   	color: black;
-	user-select: none;
-	text-align: center;
-	vertical-align: middle;
-   	cursor: pointer;
-   	line-height: 1.5;
-	margin-left: auto;
-	margin-right: auto;
-	padding:0 !important;
+/* CSS for the optional image paragrath */
+p {
+	width:auto;
+	border-top: 0;
+	background: silver;
+	margin: 0 10% 0 10%;
+	display:block;
 }
-p img {width:40%; height: 100px; padding: 15ºº; margin: 0px 10% 0px 10%; border: buttonface outset 2.5px}
+p img {
+	height: 5%;
+	margin: 0 auto 0 auto;
+	display:block
+}
+
+
+/* Seach Box shenanigins */
+.search-box { border: white outset 2.5px !important;border-right-color: black !important;border-bottom-color: black !important;background: silver;color: black;user-select: none;text-align: center;vertical-align: middle;cursor: pointer;line-height: 1.5;margin-left: auto;margin-right: auto;padding:0 !important; min-height:1em !important}
 .search-box:hover > .search-text {width: 240px;}
 .search-btn{float: right; background:silver;transition: 0.4s; cursor: pointer; }
 .search-text{border: none; background: none; outline: none; float: left; padding: 0; color: black; transition: 0.4s; width: 0px; }
+
+@media (min-height: 100%) {
+	footer{margin-top: 15px;}
+}
