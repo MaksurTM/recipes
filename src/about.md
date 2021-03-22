@@ -6,3 +6,6 @@
 3. Actually just recipes.
 4. No user accounts. Recipes are submitted via pull requests on [github](https://maksurtm.github.io/recipes/index.html).
 5. Simple static site genetation powered by [ssg5](https://www.romanzolotarev.com/ssg.html).
+
+## debloat.exe
+![industrial-revolution](../icons/kill_iphone.gif)

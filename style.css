@@ -25,7 +25,7 @@ h1 {
 h2 {
 	font-weight: 300;
 	padding: 0px 0px 0px 20px;
-	margin: 15px 10% 0 10%;
+	margin: 15px 15% 0 15%;
 	color: white;
 	background: -webkit-linear-gradient(left,#08216b,#a5cef7);
 	content: center;
@@ -41,7 +41,7 @@ a.btn {text-decoration:none}
 ul, ol {
 	width: auto;
 	max-width: 80%;
-	margin: 0px 10% 15px 10%;
+	margin: 0px 15% 15px 15%;
    	border-top: 0px;
   	background: silver;
    	color: #212529;
@@ -79,7 +79,8 @@ li {
 	text-decoration:none;
 }
 footer {
-	margin-top: 50%;
+	margin-top: 3em;
+	padding: 5px;
 	color: white;
 	background: -webkit-linear-gradient(left,#08216b,#a5cef7);
 	content: center;
@@ -152,7 +153,7 @@ p {
 	width:auto;
 	border-top: 0;
 	background: silver;
-	margin: 0 10% 0 10%;
+	margin: 0 15% 0 15%;
 	display:block;
 }
 p img {
@@ -171,3 +172,5 @@ p img {
 @media (min-height: 100%) {
 	footer{margin-top: 15px;}
 }
+
+footer img {height: 2em; padding: 3px;}
