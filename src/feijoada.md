@@ -1,24 +1,27 @@
 # Portuguese Feijoada
 
 ## Ingredients
- - 500g de feijão vermelho seco
- - 400g de entrecosto
- - 100g de toucinho
- - 1 chispe de porco
- - 1 orelha de porco
- - 1 chouriço de sangue
- - 1 chouriço de carne
- - 1 repolho pequeno
- - 1 cebola grande
- - 3 dentes de alho
- - 4 tomates
- - 0,5dl de polpa de tomate
- - 1dl de azeite
- - 1 folha de louro
- - Sal e pimenta q.b.
+ - 500g of dry red beans
+ - 400g spare ribs
+ - 100g of bacon
+ - 1 pork spark
+ - 1 pig ear
+ - 1 blood chourizo
+ - 1 meat chourizo
+ - 1 small cabbage
+ - 1 large onion
+ - 3 cloves of garlic
+ - 4 tomatos
+ - 0,5dl of tomato sauce
+ - 1dl of olive oil
+ - 1 bay leaf
+ - Salt and pepper q.s.
 
 ## Preparation
-1. Para preparar esta receita de feijoada, escolha o feijão e coloque-o a demolhar em água de um dia para o outro. Arranje o entrecosto, o toucinho, o chispe e a orelha, tempere tudo com sal grosso e deixe também de um dia para o outro no frio.
-2. No dia, leve o feijão a cozer em água temperada de sal e com 2 colheres de sopa do azeite e o louro, retire do lume e reserve. Passe as carnes por água e coza-as também juntamente com os chouriços. O feijão, as carnes e as couves são cozinhadas separadamente, em água diferente. Só as carnes são cozinhadas na mesma água com os chouriços. À medida que ficam cozidas, retire-as da água e corte-as em pequenos pedaços. Por último, separe as folhas de repolho, lave-as e coza-as ''al dente'' em água temperada de sal. Retire-as e coloque-as em água fria.
-3. Descasque e lave a cebola e os alhos e pique-os finamente. Lave e escalde os tomates, retire-lhes a pele e pevides e corte-os em cubos. Num tacho, aqueça o restante azeite, junte a cebola e os alhos, deixe refogar até a cebola ficar transparente, adicione depois o tomate e a polpa de tomate e deixe refogar mais um pouco.
-4. Junte as carnes cozidas, o feijão e um pouco do caldo da cozedura de modo a ficar bem caldoso e deixe cozinhar um pouco. Adicione depois o repolho e os chouriços, deixe apurar, rectifique os temperos, retire do lume e sirva com arroz branco.
+1. To prepare this recipe, choose the beans and put them to soak in water overnight. Get the spare ribs, the bacon, the spark and the ear, season everything with coarse salt and leave it overnight in the cold.
+2. On the same day, cook the beans in salted water and with 2 tablespoons of oil and bay leaf, remove from heat and set aside. Rinse the meats with water and also cook them with the chorizo. The beans, meats and cabbages are cooked properly, in different water. Only the meats are cooked in the same water with the chorizo. As they are cooked, retire them from the water and cut them into small pieces. Finally, separate the cabbage leaves, wash them, and cook them  "*al dente*" in spiced salt water. Take them out and put them in cold water.
+3. Peel and cook an onion and finely chop garlic. Wash and blanch the tomatos, peel them and cut them into cubes. In a saucepan, heat the remaining oil, add the onion and garlic, let it saute until the onion is transparent, limit after the tomato and tomato pulp and let it sauté a little longer.
+4. Add as cooked meats, beans and a little cooking broth and let it cook a little. After locating the cabbage and the chorizo, let it cook, rectify the seasonings, retire from the heat and serve with white rice.
+
+## feijoada.png
+![feijoada.png](../image/feijoada.png)

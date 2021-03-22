@@ -6,7 +6,6 @@ body {
 	font-size: 1rem;font-weight: 400;line-height: 1.5;
 	min-height:100vh; margin:0; position:relative;
 }
-
 /* Window border thing */
 ul, ol, h2, .btn, p{
 	border: 2.5px outset white;
@@ -31,11 +30,25 @@ h2 {
 	content: center;
   	border-bottom:0px;
 }
-/* Index list */
-ol.index {list-style-type:upper-latin;}
-ul.indexed {grid-template-columns:repeat(auto-fit,minmax(13em,1fr));border:0}
-ul.indexed li {border:0; margin:0}
-a.btn {text-decoration:none}
+
+
+/* Paragrath */
+p {
+	width:auto;
+	color: #212529;
+	padding: 0 1em 0 1em;
+	border-top: 0;
+	background: silver;
+	margin: 0 15% 0 15%;
+	display:block;
+}
+
+/* The images converted from markdown are in paragraths */
+p img {
+	height: 5%;
+	margin: 0 auto 0 auto;
+	display:block
+}
 
 /* Unordered lists (Ingredients) and ordered lists (Instructions) */
 ul, ol {
@@ -69,15 +82,33 @@ li {
 	text-align: -webkit-match-parent;
 	display: list-item;
 }
-/* Nav bar */
-.navlinks ul {
-	width: 100%;
-	padding: 3px;
-}
-.navlinks li a {
+ul li a {text-decoration:none;transition: all 0.3s ease 0s;color:#212529}
+ul li a:hover {text-decoration:none;transition: all 0.3s ease 0s;color:snow}
+/* Button class used in nav bar and footer */
+.btn{
+	padding: 0 3px 0 3px;
+	margin: 0;
+ 	background: silver;
+    	color: black;
+	user-select: none;
+    	border-radius: 1px;
+	text-align: center;
+	vertical-align: middle;
+    	cursor: pointer;
+	display: inline-block;
+	font-size: 1.2rem;
+    	line-height: 1.5;
 	transition: all 0.3s ease 0s;
-	text-decoration:none;
+} a.btn {text-decoration:none}
+.btn:hover {
+    	background: silver;
+	border: 2.5px inset buttonface;
+ 	border-left-color: #424242;
+    	border-top-color: #424242;
+	transition: all 0.3s ease 0s;
 }
+
+/* Footer */
 footer {
 	margin-top: 3em;
 	padding: 5px;
@@ -98,69 +129,18 @@ footer a {
 	font-size: 1.5rem;
 	font-weight: 300;
 }
-.btn{
-	padding: 0 3px 0 3px;
-	margin: 0;
- 	background: silver;
-    	color: black;
-	user-select: none;
-    	border-radius: 1px;
-	text-align: center;
-	vertical-align: middle;
-    	cursor: pointer;
-	display: inline-block;
-	font-size: 1.2rem;
-    	line-height: 1.5;
-}
-.btn:hover {
-    background: silver;
-	border: 2.5px inset buttonface;
-    border-left-color: #424242;
-    border-top-color: #424242;
-}
-.topbar {
-	padding: 0px;
-	margin:0;
-  	background: silver;
-   	color: #212529;
-}
-nav{border-bottom: 2.5px outset black}
-.navlinks {
-	grid-template-columns: unset;
-	display: inline-block; !important
-	grid-template-columns: none;
-	padding: 3px;
-	list-style:none;
-	margin: 0;
-	border:0;
-}
-.navlinks li {
-	display: inline-block;
-	padding: 3px;
-	border:0;
-}
-.navlinks li a {
-	transition: all 0.3s ease 0s;
-	text-decoration:none;
-}
+footer img {height: 2em; padding: 3px;}
 
+/* Trying to obsucate how much css it took me to get navbar working*/
+nav{border-bottom: 2.5px outset black}
+.topbar {padding:0px;margin:0;background:silver;color: #212529;}
+.navlinks {grid-template-columns: unset;display: inline-block !important;grid-template-columns: none;padding: 3px;list-style:none;margin: 0;border:0;}
+.navlinks ul {width: 100%;padding: 3px;}
+.navlinks li {display: inline-block;padding: 3px;border:0;}
+.navlinks li a {transition: all 0.3s ease 0s;text-decoration:none;}
 .navlinks li a:hover {transition: all 0.3s ease 0s}
 .navlinks li a img{transition: all 0.3s ease 0s}
 .navlinks li a img:hover {transition: all 0.3s ease 0s}
-
-/* CSS for the optional image paragrath */
-p {
-	width:auto;
-	border-top: 0;
-	background: silver;
-	margin: 0 15% 0 15%;
-	display:block;
-}
-p img {
-	height: 5%;
-	margin: 0 auto 0 auto;
-	display:block
-}
 
 
 /* Seach Box shenanigins */
@@ -168,9 +148,3 @@ p img {
 .search-box:hover > .search-text {width: 240px;}
 .search-btn{float: right; background:silver;transition: 0.4s; cursor: pointer; }
 .search-text{border: none; background: none; outline: none; float: left; padding: 0; color: black; transition: 0.4s; width: 0px; }
-
-@media (min-height: 100%) {
-	footer{margin-top: 15px;}
-}
-
-footer img {height: 2em; padding: 3px;}
