@@ -22,4 +22,4 @@
 Other meats may be substituted instead of beef, but use caution.
 
 ## Contribution
-1. Elias Howell - [website](https://snarf.top)
+- Elias Howell - [website](https://snarf.top)

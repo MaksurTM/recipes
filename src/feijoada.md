@@ -1,21 +1,21 @@
 # Portuguese Feijoada
 
 ## Ingredients
- - 500g of dry red beans
- - 400g spare ribs
- - 100g of bacon
- - 1 pork spark
- - 1 pig ear
- - 1 blood chourizo
- - 1 meat chourizo
- - 1 small cabbage
- - 1 large onion
- - 3 cloves of garlic
- - 4 tomatos
- - 0,5dl of tomato sauce
- - 1dl of olive oil
- - 1 bay leaf
- - Salt and pepper q.s.
+- 500g of dry red beans
+- 400g spare ribs
+- 100g of bacon
+- 1 pork spark
+- 1 pig ear
+- 1 blood chourizo
+- 1 meat chourizo
+- 1 small cabbage
+- 1 large onion
+- 3 cloves of garlic
+- 4 tomatos
+- 0,5dl of tomato sauce
+- 1dl of olive oil
+- 1 bay leaf
+- Salt and pepper q.s.
 
 ## Preparation
 1. To prepare this recipe, choose the beans and put them to soak in water overnight. Get the spare ribs, the bacon, the spark and the ear, season everything with coarse salt and leave it overnight in the cold.
@@ -25,3 +25,6 @@
 
 ## feijoada.png
 ![feijoada.png](../image/feijoada.png)
+
+## Source
+- Unknown

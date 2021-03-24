@@ -22,4 +22,4 @@
 5. Serve the pork with the onions in soft white rolls with sweet mustard and extra piri-piri sauce.
 
 ## Author
-1. Adam Liaw - [Source](https://www.goodfood.com.au/recipes/lisbonstyle-pork-bifana-recipe-20171102-gzddcg)
+- Adam Liaw - [Source](https://www.goodfood.com.au/recipes/lisbonstyle-pork-bifana-recipe-20171102-gzddcg)

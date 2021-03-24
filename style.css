@@ -19,6 +19,7 @@ h1 {
 	font-size: 2.5rem;
 	font-weight: 300;
 }
+[ id="RECIPE%20INDEX" ] { color:#000; letter-spacing: 10px}
 
 /* Makes subheaders look like that */
 h2 {

@@ -1,16 +1,18 @@
-# THE RECIPE INDEX
+# RECIPE INDEX
 
 ## A
 - [Almeirim Stone Soup](almeirim-stone-soup.html)
+- [Algarvian Snails](algarvian-snails.html)
 
 ## B
 - [Bifana (Lisbonian)](bifana.html)
-- [Bread](bread.html)
+- [Basic Bread](bread.html)
 - [Beef Jerky](beef-jerky.html)
-- [Chourizo Bread](chourizobread.html)
+- [Borrie Snails (Madeira)](borrie-snails-madeira.html)
 
 ## C
--
+- [Chourizo Bread](chourizo-bread.html)
+- [Chourizo with Olives](chourizo-elvas-olives.html)
 
 ## D
 
@@ -21,3 +23,12 @@
 - [Omelette](omelette.html)
 
 ## P
+
+## L
+- [Landim Shrimp (Mozambique)](landim-shrimp-mozambique.html)
+
+## M
+- [More than light cookies](more-than-light-cookies.html)
+
+# R
+- [Roasted Chourizo (Alentejo)](roasted-chourizo-alentejo.md)
