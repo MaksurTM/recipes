@@ -12,4 +12,4 @@
 3. After baked serve only the shrimp.
 
 ## Source
-- "Cozinha Regional Portuguesa", Maria Odette Cortes Valente [Book]
+"Cozinha Regional Portuguesa", Maria Odette Cortes Valente [Book]

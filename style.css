@@ -1,31 +1,49 @@
-html, body {margin: 0; padding: 0; height:100%}
+html {margin: 0; padding: 0; height:100%}
 body {
 	color: #fff;
-	font-family: Tahoma,sans-serif,Helvetica;
 	background-color: #bfbcf0;
 	font-size: 1rem;font-weight: 400;line-height: 1.5;
-	min-height:100vh; margin:0; position:relative;
-}
+	font-family: Tahoma,sans-serif,Helvetica;
+	height:100%;
+	margin:0;
+	padding:0;
+	}
+#body {
+	padding-bottom:48px}
+
+#container {
+   min-height:100%;
+   position:relative;}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px; }
+
 /* Window border thing */
 ul, ol, h2, .btn, p{
 	border: 2.5px outset white;
    	border-bottom-color: #424242;
- 	border-right-color: #424242;
-}
+ 	border-right-color: #424242;}
 
 /* Title */
 h1 {
 	text-align: center;
 	font-size: 2.5rem;
-	font-weight: 300;
-}
+	font-weight: 300;}
+
 [ id="RECIPE%20INDEX" ] { color:#000; letter-spacing: 10px}
+[ id="SORTED%20RECIPES" ] { color:#000; letter-spacing: 10px}
+
+/* recurrent margin */
+p,ol,ul {margin: 0 15% 0 15%;}
 
 /* Makes subheaders look like that */
 h2 {
+	margin: 15px 15% 0 15%;
 	font-weight: 300;
 	padding: 0px 0px 0px 20px;
-	margin: 15px 15% 0 15%;
 	color: white;
 	background: -webkit-linear-gradient(left,#08216b,#a5cef7);
 	content: center;
@@ -40,7 +58,6 @@ p {
 	padding: 0 1em 0 1em;
 	border-top: 0;
 	background: silver;
-	margin: 0 15% 0 15%;
 	display:block;
 }
 
@@ -55,7 +72,6 @@ p img {
 ul, ol {
 	width: auto;
 	max-width: 80%;
-	margin: 0px 15% 15px 15%;
    	border-top: 0px;
   	background: silver;
    	color: #212529;
@@ -92,7 +108,6 @@ ul li a:hover {text-decoration:none;transition: all 0.3s ease 0s;color:snow}
  	background: silver;
     	color: black;
 	user-select: none;
-    	border-radius: 1px;
 	text-align: center;
 	vertical-align: middle;
     	cursor: pointer;
@@ -102,8 +117,7 @@ ul li a:hover {text-decoration:none;transition: all 0.3s ease 0s;color:snow}
 	transition: all 0.3s ease 0s;
 } a.btn {text-decoration:none}
 .btn:hover {
-    	background: silver;
-	border: 2.5px inset buttonface;
+	border: inset buttonface;
  	border-left-color: #424242;
     	border-top-color: #424242;
 	transition: all 0.3s ease 0s;
@@ -114,23 +128,23 @@ footer {
 	margin-top: 3em;
 	padding: 5px;
 	color: white;
+	width: auto;
 	background: -webkit-linear-gradient(left,#08216b,#a5cef7);
-	content: center;
 	border: 0px outset;
-   	border-top: 4ipx solid buttonface;
-	float: bottom;
-	clear: both;
-    	position: relative;
-}
+   	border-top: 4px solid buttonface;
+	clear: both;}
+
 footer a {
 	padding-left: 40px ;
 	text-decoration:none;
 	font-size: 15px;
 	color: white;
 	font-size: 1.5rem;
-	font-weight: 300;
-}
-footer img {height: 2em; padding: 3px;}
+	font-weight: 300;}
+
+footer img {
+	height: 2em;
+	padding: 3px;}
 
 /* Trying to obsucate how much css it took me to get navbar working*/
 nav{border-bottom: 2.5px outset black}
@@ -142,8 +156,6 @@ nav{border-bottom: 2.5px outset black}
 .navlinks li a:hover {transition: all 0.3s ease 0s}
 .navlinks li a img{transition: all 0.3s ease 0s}
 .navlinks li a img:hover {transition: all 0.3s ease 0s}
-
-
 /* Seach Box shenanigins */
 .search-box { border: white outset 2.5px !important;border-right-color: black !important;border-bottom-color: black !important;background: silver;color: black;user-select: none;text-align: center;vertical-align: middle;cursor: pointer;line-height: 1.5;margin-left: auto;margin-right: auto;padding:0 !important; min-height:1em !important}
 .search-box:hover > .search-text {width: 240px;}

@@ -9,4 +9,4 @@
 2. Let it roast on all sides.
 
 ## Source
-- "Cozinha Regional Portuguesa", Maria Odette Cortes Valente [Book]
+"Cozinha Regional Portuguesa", Maria Odette Cortes Valente [Book]

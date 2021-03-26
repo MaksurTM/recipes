@@ -10,4 +10,4 @@
 1. Cut the bread in small squares, spread butter on them, put the chourizo on top and then the olive.
 
 ## Source
-- "Cozinha Regional Portuguesa", Maria Odette Cortes Valente [Book]
+"Cozinha Regional Portuguesa", Maria Odette Cortes Valente [Book]

@@ -7,4 +7,4 @@
 4. Cover them with oil and cork the jars well.
 
 ## Source
-- "Cozinha Regional Portuguesa", Maria Odette Cortes Valente [Book]
+"Cozinha Regional Portuguesa", Maria Odette Cortes Valente [Book]
