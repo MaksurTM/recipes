@@ -1,81 +1,64 @@
 html {margin: 0; padding: 0; height:100%}
-body {
-	color: #fff;
+
+body {	color: #fff;
 	background-color: #bfbcf0;
-	font-size: 1rem;font-weight: 400;line-height: 1.5;
+	font-size: 1rem;
+	line-height: 1.5;
 	font-family: Tahoma,sans-serif,Helvetica;
 	height:100%;
 	margin:0;
-	padding:0;
-	}
-#body {
+	padding:0;}
+
+#body {	margin-left:15%;
+	margin-right:15%;
 	padding-bottom:48px}
 
-#container {
-   min-height:100%;
-   position:relative;}
+#container{min-height:100%;
+	position:relative;}
 
-#footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px; }
+#footer{position:absolute;
+	bottom:0;
+	width:100%;
+	height:60px;}
 
 /* Window border thing */
-ul, ol, h2, .btn, p{
+ul, ol, h2, .btn, p {
 	border: 2.5px outset white;
-   	border-bottom-color: #424242;
- 	border-right-color: #424242;}
+   	border-bottom-color: #000;
+ 	border-right-color: #000;}
 
 /* Title */
-h1 {
+h1 {	letter-spacing:3px;
 	text-align: center;
 	font-size: 2.5rem;
 	font-weight: 300;}
 
-[ id="RECIPE%20INDEX" ] { color:#000; letter-spacing: 10px}
-[ id="SORTED%20RECIPES" ] { color:#000; letter-spacing: 10px}
-
-/* recurrent margin */
-p,ol,ul {margin: 0 15% 0 15%;}
-
-/* Makes subheaders look like that */
-h2 {
-	margin: 15px 15% 0 15%;
+/* Card Headers */
+h2 {	margin:0;
 	font-weight: 300;
 	padding: 0px 0px 0px 20px;
 	color: white;
 	background: -webkit-linear-gradient(left,#08216b,#a5cef7);
-	content: center;
-  	border-bottom:0px;
-}
+  	border-bottom:0px;}
 
-
-/* Paragrath */
-p {
-	width:auto;
-	color: #212529;
-	padding: 0 1em 0 1em;
-	border-top: 0;
-	background: silver;
-	display:block;
-}
-
-/* The images converted from markdown are in paragraths */
-p img {
-	height: 5%;
-	margin: 0 auto 0 auto;
-	display:block
-}
-
-/* Unordered lists (Ingredients) and ordered lists (Instructions) */
-ul, ol {
-	width: auto;
-	max-width: 80%;
-   	border-top: 0px;
+/* Card bodies */
+p,ol,ul{margin: 0 0 1em 0;
+	border-top: 0px;
   	background: silver;
    	color: #212529;
-}
+	padding: 0px;}
+
+/* Cards with just text */
+p {	text-align:justify;
+	padding: 8px 20px 8px 20px;
+	display:block;}
+
+/* Images inside cards */
+p img {	height: 5%;
+	margin: 0 auto 0 auto;
+	display:block;}
+
+/* Unordered lists (Ingredients) and ordered lists (Instructions) */
 ul li {
 	min-height: 2em;
 	border: 1px solid white;
@@ -84,21 +67,19 @@ ul li {
  	border-right-color: #424242;
 	padding-left: 1em;
 }
-ol {
-	padding: 10px 40px 10px 30px;
+/* Directions list */
+ol {	padding: 10px 40px 10px 30px;
 	text-align: justify;
-	text-justify: inter-word;
-}
-ul {
-	padding: 0;
-	display: grid;
+	text-justify: inter-word;}
+
+ul {	display: grid;
 	grid-template-columns:  repeat(auto-fill, minmax(15em,1fr));
-	list-style: none;
-}
+	list-style: none;}
+
 li {
 	text-align: -webkit-match-parent;
-	display: list-item;
-}
+	display: list-item;}
+
 ul li a {text-decoration:none;transition: all 0.3s ease 0s;color:#212529}
 ul li a:hover {text-decoration:none;transition: all 0.3s ease 0s;color:snow}
 /* Button class used in nav bar and footer */
@@ -117,9 +98,9 @@ ul li a:hover {text-decoration:none;transition: all 0.3s ease 0s;color:snow}
 	transition: all 0.3s ease 0s;
 } a.btn {text-decoration:none}
 .btn:hover {
-	border: inset buttonface;
- 	border-left-color: #424242;
-    	border-top-color: #424242;
+	border: 2.5px inset buttonface;
+ 	border-left-color: #000;
+    	border-top-color: #000;
 	transition: all 0.3s ease 0s;
 }
 

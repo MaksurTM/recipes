@@ -1,24 +1,31 @@
-# Dish title
+Dish★Name
+
+# Name of dish
 
 ## Information
-- Prep: x min
-- Cook: y min
-- Servings: z
-(optional)
+This is optional. Add important/useful information if needed.
+Servings, time to cook,
 
 ## Ingredients
-- List the ingredients.
-- List amounts if necessary.
-- Put (optional) at the end of optional ingredients.
+- Must be in a list like this one.
+- 50g of Ingredient
+- tbls of salt
+- etc
+
+## image_name.png
+![image](url) ;images are optional but nice to include
 
 ## Instructions
-1. Now using an ordered list,
-2. Give instructions to prepare the dish.
+1. In an ordered list, like the one here
+2. List the instructions to prepare the dish.
 3. Don't add blank lines between items.
 4. Instructions should be simple and easy to understand.
 5. Plain english.
 
-## Author
-You should credit the author and link to his/her website or book. 
-If you are the author, you can refer to yourself as "Anonymous" if you want to.
+## Author and Source
+You can credit yourself and link to some page of yours, unless you don't want to.
+You can also credit the source if you deem it necessary.
+- Source - [Book](link to book)
 - Author - [website](url)
+
+;tags: Hardy Meal
