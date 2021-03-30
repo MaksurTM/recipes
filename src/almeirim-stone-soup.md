@@ -30,3 +30,6 @@ A poor friar who was on a pilgrimage stopped in the village of Almeirim and knoc
 
 ## Author
 - Artur Mancha - [Pleroma](https://pleroma.pt/@lisbonjoker)
+
+## Tags
+;; tags: hearty-meal soup portuguese

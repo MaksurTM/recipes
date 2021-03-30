@@ -25,3 +25,6 @@
 
 ## Author
 - Source - [easyportugueserecipes.com](https://easyportugueserecipes.com/chourico-bread-pao-com-chourico/)
+
+## Tags
+;; tags: portuguese bread

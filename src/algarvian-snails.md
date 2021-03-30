@@ -9,3 +9,5 @@ They are put in cold water so they exit their shells.
 
 ## Source
 "Cozinha Regional Portuguesa", Maria Odette Cortes Valente [Book]
+
+;; tags: apetizer

@@ -32,3 +32,5 @@ For buns or rolls divide dough into smaller pieces before second rest. Shape the
 
 ## Contribution
 - Alex Selimov - [Website](https://alexselimov.xyz)
+
+;;tags: bread
