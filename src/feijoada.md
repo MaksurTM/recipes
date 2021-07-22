@@ -24,7 +24,7 @@
 4. Add as cooked meats, beans and a little cooking broth and let it cook a little. After locating the cabbage and the chorizo, let it cook, rectify the seasonings, retire from the heat and serve with white rice.
 
 ## feijoada.png
-![feijoada.png](../image/feijoada.png)
+![feijoada.png](../data/images/feijoada.png)
 
 ## Source
 - Unknown
