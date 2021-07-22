@@ -15,12 +15,12 @@ variables:
 	@echo TAG_FILES: $(TAG_FILES)
 	@echo TAGS: $(TAGS)
 
-build: index.html tagged.html about.html $(patsubst src/%.md,recipes/%.html,$(MD_FILES))
+build: $(patsubst src/%.md,recipes/%.html,$(MD_FILES)) index.html tagged.html about.html
 
 about.html: data/about.md
 	envsubst < templates/_headerindex.html >> $@; \
         pandoc -f markdown -t html "$<" | envsubst >> $@; \
-	envsubst < templates/_footerindex.html >> $@; \
+	envsubst < templates/_footerindex.html >> $@;
 
 tagged.html: $(patsubst src/%.md,tags/%,$(MD_FILES)) $(TAG_FILES) $(patsubst %,tagpages/%.html,$(TAGS))
 	envsubst < templates/_headerindex.html > $@; \
@@ -31,7 +31,7 @@ tagged.html: $(patsubst src/%.md,tags/%,$(MD_FILES)) $(TAG_FILES) $(patsubst %,t
 		printf '%s \n' "<li> <a href=tagpages/$$t.html>$$t</a> </li>" ; \
         done >> $@; \
 	printf "</ul>\n" >> $@; \
-	envsubst < templates/_footerindex.html >> $@; \
+	envsubst < templates/_footerindex.html >> $@;
 
 tagpages/%.html:
 	envsubst < templates/_header.html > $@; \
@@ -42,7 +42,7 @@ tagpages/%.html:
                 printf '%s \n' "<li><a href=../recipes/$$f.html>$$f</a></li>"; \
         done >> $@; \
 	printf "</ul>\n" >> $@; \
-        envsubst < templates/_footer.html >> $@; \
+        envsubst < templates/_footer.html >> $@;
 
 tags/%: src/%.md
 	mkdir -p tags; \
@@ -54,7 +54,7 @@ index.html:
 	printf "<h2> All Recipes </h2>" >> $@; \
 	printf "<ul>" >> $@; \
 	for f in $(shell echo $(RECIPES) | sort) ; do \
-		printf '%s \n' "<li>" "<a href=recipes/$$f.html>$$f</a>" "</li>" ; \
+		printf '%s \n' "<li><a href=recipes/$$f.html>$$f</a></li>" ; \
 	done >> $@; \
 	printf "</ul>" >> $@; \
 	envsubst < templates/_footerindex.html >> $@; \
